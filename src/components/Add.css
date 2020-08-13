@@ -1,0 +1,90 @@
+.addFormContainer{
+    margin-top: 25px;
+    display: grid;
+    place-items: center;
+}
+.addFormContainer form {
+    text-align: center;
+    width: 300px;
+}
+
+.centerEverything{
+    display: grid;
+    place-items: center;
+}
+
+.inputFields{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+.inputFields input{
+    flex: 1;
+    margin-left: 10px;
+}
+.inputFields label{
+    flex: 1;
+    text-align: right;
+    margin-right: 11px;
+}
+
+.navWrapper{
+    display: flex;
+    justify-content: center;
+    background-color: #dad5d5;
+    padding: 10px;
+}
+
+.allLinks{
+    background-color: beige;
+    margin: 10px;
+}
+.allLinks:hover {
+    opacity: .6;
+    background-color: rgb(156, 223, 235);
+}
+
+i{
+    cursor: pointer;
+}
+table {
+    min-width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    border-collapse: collapse;                    
+    border: 1px solid rgb(179, 176, 176);
+    box-shadow: 0 1px 7px 2px #dad5d5;
+}
+table thead tr {
+    background-color: #dad5d5;
+    color: rgb(102, 100, 100);
+    text-align: left;
+}
+
+td, th {
+    padding: 15px 15px;
+}
+td:last-child{
+    padding:15px 0px;
+    color: grey;
+}
+th:last-child{
+    padding:15px 0px;
+}
+td:nth-last-child(2){
+    padding: 15px 0px;
+    color: grey;
+}
+th:nth-last-child(2){
+    padding: 15px 0px;
+}
+tbody tr{
+    color: #2e2727;
+    border-bottom: 1px solid #dad5d5;
+}
+tbody tr:nth-child(2n){
+    background-color: rgb(243, 239, 239);
+}
+tbody tr:last-child{
+    border-bottom: 3px solid #dad5d5;
+}
